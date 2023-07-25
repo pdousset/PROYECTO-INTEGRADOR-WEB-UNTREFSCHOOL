@@ -3,7 +3,7 @@
 /* COLORES #FC7300 , #1F8A70 , #00425A , #181823,
 #EFF5F5 */
 #home-tab-pane {
-    background-image: url('/images/frenteschool.jpg');
+    background-image: url('./images/frenteschool.jpg');
     background-size: cover;
     background-position: center;
 }
