@@ -9,9 +9,15 @@
 }
 
 .nav {
-   background-color:  #00425A;
+   background-color:  #1F8A70;
    color: #EFF5F5;
 }
+
+.nav-tabs {
+    --bs-nav-tabs-link-active-bg: #ff6000 !important
+}
+
+
 .tab-pane{
 height: 90vh;
 }
