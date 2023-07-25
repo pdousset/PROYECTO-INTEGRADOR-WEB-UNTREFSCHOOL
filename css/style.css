@@ -44,7 +44,7 @@ height: 90vh;
     bottom: 0;
     width: 100%;
     background-color: #00425A;
-    color: white;
+    color: #EFF5F5;
     text-align: center;
     height: 125px;
     display: flex;
@@ -60,4 +60,17 @@ height: 90vh;
 .contacto img{
     width: 7%;
     margin-left: 5px;
+}
+.activo {
+display: flex;
+align-items: center;
+padding: 50px;
+}
+.activo IMG{
+    margin-right: 20px;
+}
+
+.tab-content{
+    background-color: #EFF5F5;
+   
 }
