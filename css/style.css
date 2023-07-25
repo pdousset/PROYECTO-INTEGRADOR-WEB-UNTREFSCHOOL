@@ -1,0 +1,63 @@
+/* font-family: 'Poppins', sans-serif; */
+
+/* COLORES #FC7300 , #1F8A70 , #00425A , #181823,
+#EFF5F5 */
+#home-tab-pane {
+    background-image: url('/images/frenteschool.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.nav {
+   background-color:  #00425A;
+   color: #EFF5F5;
+}
+.tab-pane{
+height: 90vh;
+}
+.nav-link{
+    color: #EFF5F5!important
+}
+
+.nav-link.active{
+    color: #00425A !important
+}
+
+section h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+
+header{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+}
+section{
+height: 90vh;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #00425A;
+    color: white;
+    text-align: center;
+    height: 125px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redes img{
+    width: 05%;
+    margin-left: 5px;
+}
+
+.contacto img{
+    width: 7%;
+    margin-left: 5px;
+}
