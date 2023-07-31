@@ -2,48 +2,32 @@
 
 /* COLORES #FC7300 , #1F8A70 , #00425A , #181823,
 #EFF5F5 */
-#home-tab-pane {
-    background-image: url('./images/frenteschool.jpg');
-    background-size: cover;
-    background-position: center;
-}
-
-.nav {
-   background-color:  #1F8A70;
-   color: #EFF5F5;
-}
-
-.nav-tabs {
-    --bs-nav-tabs-link-active-bg: #ff6000 !important
-}
 
 
-.tab-pane{
-height: 90vh;
-}
-.nav-link{
-    color: #EFF5F5!important
-}
-
-.nav-link.active{
-    color: #00425A !important
+body{
+    background-color: #EFF5F5 ;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 70px;
 }
 
-section h1{
+.navbar{
+    background-color: #1F8A70 !important;
+
+   
+}
+
+
+
+
+.titulo{
     font-size: 50px;
     text-align: center;
 }
-
-
-header{
+.noticias{
     display: flex;
-    justify-content: center;
-    height: 200px;
+    justify-content: space-around; 
+    flex-wrap: wrap;
 }
-section{
-height: 90vh;
-}
-
 .footer {
     position: fixed;
     left: 0;
@@ -67,16 +51,108 @@ height: 90vh;
     width: 7%;
     margin-left: 5px;
 }
-.activo {
+.sector {
 display: flex;
 align-items: center;
-padding: 50px;
+justify-content: center;
+padding: 10px;
+height: 100vh;
+max-width: 1000px;
 }
-.activo IMG{
+.sector IMG{
     margin-right: 20px;
 }
 
-.tab-content{
-    background-color: #EFF5F5;
-   
+.footerm {
+    display: none;
+}
+/* .headerm{
+    display: none;
+} */
+
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+    body h1{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .redes img{
+        width: 20%;
+        margin-left: 5px;
+    }
+
+    .contacto img{
+        width: 20%;
+        margin-left: 5px;
+    }
+    .footer {
+        display: none;
+    }
+    .footerm{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #00425A;
+        color: #EFF5F5;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 9vh;
+    }
+    .footerm img{
+        width:35%;
+    }
+    .sector {
+    display: block; 
+    margin-bottom: 200px;     
+    padding: 10px;
+    height: 135vh;
+        }
+    .sector IMG{
+        margin-right: 0px;
+        width: 100%;
+        }
+
+}
+
+
+/* celu */
+
+
+@media screen and (max-width: 320px) {
+    body h1{
+        font-size: 20px;
+        text-align: center;
+    }
+    .headerm{
+        visibility: visible;
+    }
+
+    .footerm{
+        visibility:visible;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #00425A;
+        color: #EFF5F5;
+        display: flex;
+        justify-content: space-between;
+        height: 8vh;
+    }
+    .footerm img{
+        width: 50%;
+    }
+    .sector {
+        display: block;
+        padding: 10px;
+        }
+    .sector IMG{
+            margin-right: 20px;
+    }
+
 }
